@@ -18,7 +18,7 @@ const PortalGenerator = () => {
   };
 
   return (
-    <div className="relative w-full h-screen bg-gray-800" onClick={addPortal}>
+    <div className="relative w-full h-screen bg-slate-700" onClick={addPortal}>
       {portals.map(portal => (
         <Portal key={portal.id} id={portal.id} x={portal.x} y={portal.y} onRemove={removePortal} />
       ))}
