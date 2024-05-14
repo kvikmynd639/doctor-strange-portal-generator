@@ -10,7 +10,7 @@ const Portal = ({ id, x, y, onRemove }) => {
       animate={{ scale: 1 }}
       exit={{ scale: 0 }}
     >
-      <button className="text-white" onClick={() => onRemove(id)}>X</button>
+      <button className="text-white" onClick={() => onRemove(id)}>Bang</button>
     </motion.div>
   );
 };

@@ -1,9 +1,9 @@
-import logo from './logo.svg';
+import Game from './components/Game';
 
 function App() {
   return (
     <div className="App">
-      Hello World!
+      <Game/>
     </div>
   );
 }
